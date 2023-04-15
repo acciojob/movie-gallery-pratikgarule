@@ -2,13 +2,9 @@
 /* Your CSS Code here. */
 .col-sm-4 {
   float: left;
-  width: 33%;
+  width: 40px;
   padding:2px;
+	display:flex;
 }
 
 /* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
